@@ -67,6 +67,15 @@
         <span class="ml-8">Laporan</span>
       </a>
       <a
+        class="p-2 flex items-center rounded-md px-4 duration-300 text-xl font-medium
+        text-black hover:bg-merva-100 hover:border-r-4 hover:border-r-merva
+        active:bg-merva-100 active:border-r-4 active:border-r-merva"
+        href="/app/kasir"
+        data-sveltekit-reload
+      >
+        <span class="ml-8">Kelola Kasir</span>
+      </a>
+      <a
         class="row-start-12 row-end-12 p-2 flex items-center rounded-md px-4 duration-300 text-xl font-medium
         text-black hover:bg-merva-100 hover:border-r-4 hover:border-r-merva
         active:bg-merva-100 active:border-r-4 active:border-r-merva"

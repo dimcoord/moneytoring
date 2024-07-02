@@ -1,1 +1,1 @@
-<h1 class="font-bold text-2xl">Transaksi</h1>
+<h1 class="mb-6">Transaksi</h1>

@@ -1,5 +1,3 @@
-scrip
-
 <div class="flex items-center justify-center min-h-screen bg-gray-100">
   <div
     class="relative flex flex-col m-6 space-y-8 bg-white shadow-2xl rounded-2xl md:flex-row md:space-y-0"
@@ -40,13 +38,13 @@ scrip
             required
           />
         </div>
-        <button
+        <a href="/app/dasbor" data-sveltekit-reload><button
           class="w-full bg-merva text-white p-2 rounded-lg mb-6 hover:bg-white hover:text-black hover:border hover:border-gray-300" 
           type="submit"
           formaction="/app/dasbor"
         >
           Masuk
-        </button>
+        </button></a>
         <div class="text-center text-gray-400">
           Ingin membuat akun atau lupa password?
           <a href="https://wa.me/6283185381334" target="_blank" class="font-bold text-merva">Klik disini!</a>

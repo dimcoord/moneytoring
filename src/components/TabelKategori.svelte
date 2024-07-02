@@ -1,22 +1,19 @@
 <script>
     import { Table, TableBody, TableBodyCell, TableBodyRow, TableHead, TableHeadCell, Checkbox, TableSearch } from 'flowbite-svelte';
-    import { cabang, kodeKasir, namaKasir } from "../data"
 </script>
 
 <Table>
     <TableHead>
       <TableHeadCell class="font-extrabold text-base">#</TableHeadCell>
-      <TableHeadCell class="font-extrabold text-base">Kode Kasir</TableHeadCell>
-      <TableHeadCell class="font-extrabold text-base">Nama Kasir</TableHeadCell>
-      <TableHeadCell class="font-extrabold text-base">Cabang</TableHeadCell>
+      <TableHeadCell class="font-extrabold text-base">Kode Kategori</TableHeadCell>
+      <TableHeadCell class="font-extrabold text-base">Nama Kategori</TableHeadCell>
       <TableHeadCell class="font-extrabold text-base">Aksi</TableHeadCell>
     </TableHead>
     <TableBody tableBodyClass="divide-y">
       <TableBodyRow>
         <TableBodyCell>1</TableBodyCell>
-        <TableBodyCell>{kodeKasir.kasir1}</TableBodyCell>
-        <TableBodyCell>{namaKasir.kasir1}</TableBodyCell>
-        <TableBodyCell>{cabang.bdgCisarantenKidul}</TableBodyCell>
+        <TableBodyCell>KCP</TableBodyCell>
+        <TableBodyCell>Kecap</TableBodyCell>
         <TableBodyCell>
           <div class="flex justify-center">
             <button class="bg-merva min-w-8 min-h-8 rounded-md text-white mr-6">A</button>
@@ -27,9 +24,8 @@
       </TableBodyRow>
       <TableBodyRow>
         <TableBodyCell>2</TableBodyCell>
-        <TableBodyCell>{kodeKasir.kasir2}</TableBodyCell>
-        <TableBodyCell>{namaKasir.kasir2}</TableBodyCell>
-        <TableBodyCell>{cabang.jktSouthQuarter}</TableBodyCell>
+        <TableBodyCell>BRS</TableBodyCell>
+        <TableBodyCell>Beras</TableBodyCell>
         <TableBodyCell>
           <div class="flex justify-center">
             <button class="bg-merva min-w-8 min-h-8 rounded-md text-white mr-6">A</button>
@@ -40,9 +36,8 @@
       </TableBodyRow>
       <TableBodyRow>
         <TableBodyCell>3</TableBodyCell>
-        <TableBodyCell>{kodeKasir.kasir3}</TableBodyCell>
-        <TableBodyCell>{namaKasir.kasir3}</TableBodyCell>
-        <TableBodyCell>{cabang.bdgCisarantenKidul}</TableBodyCell>
+        <TableBodyCell>MYK</TableBodyCell>
+        <TableBodyCell>Minyak</TableBodyCell>
         <TableBodyCell>
           <div class="flex justify-center">
             <button class="bg-merva min-w-8 min-h-8 rounded-md text-white mr-6">A</button>
@@ -53,9 +48,8 @@
       </TableBodyRow>
       <TableBodyRow>
         <TableBodyCell>4</TableBodyCell>
-        <TableBodyCell>{kodeKasir.kasir4}</TableBodyCell>
-        <TableBodyCell>{namaKasir.kasir4}</TableBodyCell>
-        <TableBodyCell>{cabang.bdgKenanganIndahl}</TableBodyCell>
+        <TableBodyCell>MIE</TableBodyCell>
+        <TableBodyCell>Mie Instan</TableBodyCell>
         <TableBodyCell>
           <div class="flex justify-center">
             <button class="bg-merva min-w-8 min-h-8 rounded-md text-white mr-6">A</button>
@@ -66,9 +60,8 @@
       </TableBodyRow>
       <TableBodyRow>
         <TableBodyCell>5</TableBodyCell>
-        <TableBodyCell>{kodeKasir.kasir5}</TableBodyCell>
-        <TableBodyCell>{namaKasir.kasir5}</TableBodyCell>
-        <TableBodyCell>{cabang.jktSouthQuarter}</TableBodyCell>
+        <TableBodyCell>MNM</TableBodyCell>
+        <TableBodyCell>Minuman Kemasan</TableBodyCell>
         <TableBodyCell>
           <div class="flex justify-center">
             <button class="bg-merva min-w-8 min-h-8 rounded-md text-white mr-6">A</button>

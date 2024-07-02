@@ -1,12 +1,7 @@
 <script>
     import { Button, Dropdown, DropdownItem } from 'flowbite-svelte';
-    import { ChevronDownOutline } from 'flowbite-svelte-icons';
-
-    let cabang = {
-        bdgKenanganIndah: "Bandung - Jl. Kenangan Indah",
-        bdgCisarantenKidul: "Bandung - Jl. Cisaranten Kidul",
-        jktSouthQuarter: "Jakarta - Gedung South Quarter"
-    }
+    import { cabang } from  "../data"
+    
     let cabangDipilih = cabang.bdgKenanganIndah;
 </script>
 
