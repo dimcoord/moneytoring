@@ -7,7 +7,7 @@
 
 <div>
     <h1 class="mb-6">Dasbor Penjualan</h1>
-    <div class="h-12 w-72 bg-white mb-6">
+    <div class="h-10 w-72 bg-white mb-6">
         <Datepicker />
     </div>
     <div class="flex justify-between mb-12">

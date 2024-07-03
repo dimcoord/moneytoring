@@ -1,5 +1,5 @@
 <script>
-  
+  import profile from '$lib/assets/profile.jpg'
 </script>
 
 <!-- component -->
@@ -16,6 +16,7 @@
         class="row-span-2 p-2 flex justify-center items-center rounded-md px-4 text-black"
         href="/app/profil"
       >
+      <img src={profile} class="rounded-full max-w-20 max-h-20" alt="the pfp" />
         <div class="flex flex-col items-start ml-4">
           <span class="font-bold text-xl">Bianca</span>
           <span class="text-md">Administrator</span>
@@ -56,15 +57,6 @@
         data-sveltekit-reload
       >
         <span class="ml-8">Transaksi</span>
-      </a>
-      <a
-        class="p-2 flex items-center rounded-md px-4 duration-300 text-xl font-medium
-        text-black hover:bg-merva-100 hover:border-r-4 hover:border-r-merva
-        active:bg-merva-100 active:border-r-4 active:border-r-merva"
-        href="/app/laporan"
-        data-sveltekit-reload
-      >
-        <span class="ml-8">Laporan</span>
       </a>
       <a
         class="p-2 flex items-center rounded-md px-4 duration-300 text-xl font-medium

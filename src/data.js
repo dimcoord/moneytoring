@@ -4,6 +4,10 @@ export const cabang = {
     jktSouthQuarter: "Jakarta - Gedung South Quarter"
 }
 
+export const produk = {
+    kecap: "Kecap Bango"
+}
+
 export const kodeKasir = {
     kasir1: "BDG01",
     kasir2: "JKT01",
